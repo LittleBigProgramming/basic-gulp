@@ -4,12 +4,12 @@
   "description": "A simple project to illustrate the setup of gulp to run build tasks",
   "main": "index.js",
   "dependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-clean-css": "^3.10.0",
     "gulp-cli": "^2.0.1"
   },
   "devDependencies": {
-    "autoprefixer": "^9.1.5",
+    "autoprefixer": "^9.2.0",
     "css-mqpacker": "^7.0.0",
     "cssnano": "^4.1.4",
     "gulp-concat": "^2.6.1",

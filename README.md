@@ -12,3 +12,5 @@ Currently it is setup to be indicating a production environment to demonstrate c
 These have then been bundled in a command `run-all` which allows all of the tasks to be ran one after another so they don't have to be run one by one. 
 
 Furthermore a watcher has been created so that by simply running `gulp watch` any alterations to the watched directories pipe the changes through to the dist folder as they happen. Remember you can always stop this task with `ctrl + C` within your terminal. 
+
+If using the gulp-file in a different project run `npm install gulp gulp-newer gulp-imagemin gulp-htmlclean gulp-concat gulp-deporder gulp-strip-debug gulp-uglify gulp-sass gulp-postcss postcss-assets autoprefixer css-mqpacker cssnano gulp-clean-css` to install all dependencies. 
